@@ -88,7 +88,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | :-------------- | :----------------------------------------------------------- |
 | Link            | [Project🎯](https://github.com/MoonshotAI/Kimi-k1.5)          |
 | Reward Function | Rule-Based (Accuracy)                                        |
-| Core Insights   | Effective long2short methods that use long-CoT techniques to improve short-CoT models, yielding state-of-the-art short-CoT reasoning results, outperforming existing short-CoT models.The author derives a long-CoT (Chain-of-Thought) RL formulation and employs a variant of online mirror descent to achieve policy optimization. By incorporating sampling strategies, length penalties, and data balancing, the method enables MLLMs (Multi-Layered Learning Models) to acquire chain-of-thought reasoning that exhibits characteristics of planning, reflection, and correction.To alleviate the overthinking phenomenon, the author proposes a length-penalized RL approach and multiple Long2Short methods. |
+| Core Insights   | The author proposes a long-CoT RL framework optimized via online mirror descent. By integrating sampling, length penalties, and data balancing, it enables MLLMs to perform CoT reasoning with planning, reflection, and correction. To address overthinking, a length-penalized RL approach and Long2Short methods are introduced for more efficient reasoning. |
 
 <details><summary>Show More ...</summary>
 
