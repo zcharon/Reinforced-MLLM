@@ -34,7 +34,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 # Table of Contents 📋
 
-- [Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models](#reinforced-mllm--a-survey-on-rl-based-reasoning-in-multimodal-large-language-models)
+- [Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models](#reinforced-mllm-a-survey-on-rl-based-reasoning-in-multimodal-large-language-models)
 - [News 📣](#news-)
 - [Methods 📝](#methods-)
   * [Image-Based 🌁](#image-based-)
@@ -48,6 +48,11 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 - [Citation 📄](#citation-)
 
 # Methods 📝
+
+<div align="center">
+<img src="assets/timeline.png" alt="timeline" 
+style="width:90%; height:auto;" />
+</div>
 
 | Model                     | Date | Org | Modality    | Strategy     | Algorithm     | Applications        |
 |------------------------|------|-------------|--------------|----------------|----------------------|------------------------|
@@ -498,6 +503,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 </details>
 
 # Benchmarks 📈
+
+![benchmark](assets/benchmark.png "Example Image")
 
 | Benchmark                                                    | Date | Org             | Modality | Applications         |
 | ------------------------------------------------------------ | ---- | --------------- | -------- | -------------------- |
