@@ -212,14 +212,11 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 **VLAA-Thinker: SFT or RL? An Early Investigation into Training R1-Like Reasoning Large Vision-Language Models**
 
-| Paper               | [SFT or RL? An Early Investigation into Training R1-Like Reasoning Large Vision-Language Models](https://arxiv.org/abs/2504.11468) |
-| :------------------ | :----------------------------------------------------------- |
-| Link                | [Datasets🤗](https://huggingface.co/collections/UCSC-VLAA/vlaa-thinker-67eda033419273423d77249e)   [Models🤗](https://huggingface.co/collections/UCSC-VLAA/vlaa-thinker-67eda033419273423d77249e)   [Code💻](https://huggingface.co/collections/UCSC-VLAA/vlaa-thinker-67eda033419273423d77249e) |
-| Training Dataset    | VLAA-Thinking                                                |
-| Reward Function     | Rule-Based Reward, Open-ended Reward                         |
-| Policy Optimization | PPO Loss + KL Loss                                           |
-| Benchmark           | MathVista, MathVision, MathVerse, DynaMath, WeMath, LogicVista |
-| Core Insights       | The authors found that while Supervised Fine-Tuning (SFT) helps models learn reasoning formats, it tends to lock aligned models into imitative, rigid reasoning patterns, thereby hindering further learning. To systematically study this effect, the authors introduced a multimodal dataset called VLAA-Thinking. Additionally, building on GRPO, they employed a novel hybrid reward module that integrates perceptual and cognitive signals to encourage more authentic and adaptable reasoning behavior. |
+| Paper           | [SFT or RL? An Early Investigation into Training R1-Like Reasoning Large Vision-Language Models](https://arxiv.org/abs/2504.11468) |
+| :-------------- | :----------------------------------------------------------- |
+| Link            | [Datasets🤗](https://huggingface.co/collections/UCSC-VLAA/vlaa-thinker-67eda033419273423d77249e)   [Models🤗](https://huggingface.co/collections/UCSC-VLAA/vlaa-thinker-67eda033419273423d77249e)   [Code💻](https://huggingface.co/collections/UCSC-VLAA/vlaa-thinker-67eda033419273423d77249e) |
+| Reward Function | Rule-Based Reward, Open-ended Reward                         |
+| Core Insights   | The authors found that while Supervised Fine-Tuning (SFT) helps models learn reasoning formats, it tends to lock aligned models into imitative, rigid reasoning patterns, thereby hindering further learning. To systematically study this effect, the authors introduced a multimodal dataset called VLAA-Thinking. Additionally, building on GRPO, they employed a novel hybrid reward module that integrates perceptual and cognitive signals to encourage more authentic and adaptable reasoning behavior. |
 
 **VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning**
 
