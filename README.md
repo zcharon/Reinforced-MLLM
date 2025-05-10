@@ -505,7 +505,7 @@ style="width:90%; height:auto;" />
 # Benchmarks 📈
 
 <img src="assets/benchmark2.png" alt="benchmark" 
-style="width:80%; height:auto;" />
+style="width:76%; height:auto;" />
 
 | Benchmark                                                    | Date | Org             | Modality | Applications         |
 | ------------------------------------------------------------ | ---- | --------------- | -------- | -------------------- |
