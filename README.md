@@ -450,6 +450,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Reward Function | Format Reward, Curriculum-based Reward Scheduling)           |
 | Core Insights   | SARI proposes a structured Chain-of-Thought (CoT) + curriculum-guided GRPO fine-tuning framework, systematically evaluating the benefits of structured and unstructured reasoning strategies for audio reasoning models. The final model achieves a 67.08% SOTA performance on MMAU and demonstrates strong cross-domain generalization capabilities on MMSU. |
 
+</details>
+
 ## Omni 🤖
 
 **R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning**
@@ -459,6 +461,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Link            | [Models🤗](https://huggingface.co/StarJiaxing/R1-Omni-0.5B)  [Code💻](https://github.com/HumanMLLM/R1-Omni) |
 | Reward Function | Rule-based Rewards (Accuracy, Format)                        |
 | Core Insights   | Apply the r1 training paradigm to the field of audio-video emotion recognition. |
+
+<details><summary>Show More...</summary>
 
 **EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning**
 
