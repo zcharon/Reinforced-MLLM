@@ -46,6 +46,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 <img src="assets/timeline.png" alt="timeline" 
 style="width:90%; height:auto;" />
 </div>
+
 | Model                     | Date | Org | Modality    | Strategy     | Algorithm     | Applications        |
 |------------------------|------|-------------|--------------|----------------|----------------------|------------------------|
 | [KIMI K1.5](https://arxiv.org/abs/2501.12599) | 1.22    | MoonshotAI | T&I             | SFT&RL             | OPMD                | General Reasoning |
