@@ -6,13 +6,25 @@
 
 </div>
 
+<div align="center" style="font-family: Arial, sans-serif;">
+  <p>
+    <a href="#news-" style="text-decoration: none; font-weight: bold;">News 📣</a> - 
+    <a href="#methods-" style="text-decoration: none; font-weight: bold;">Methods 📝</a> - 
+    <a href="#benchmarks-" style="text-decoration: none; font-weight: bold;">Benchmarks 📈</a>
+  </p>
+  <p>
+    <a href="#contribution-and-acknowledgment-" style="text-decoration: none; font-weight: bold;">Contribution and Acknowledgment ❤️</a> - 
+    <a href="#citation-" style="text-decoration: none; font-weight: bold;">Citation 📄</a>
+  </p>
+</div>
+
 The integration of reinforcement learning (RL) into the reasoning capabilities of Multimodal Large Language Models (MLLMs) has rapidly emerged as a transformative research direction. While MLLMs significantly extend Large Language Models (LLMs) to handle diverse modalities such as vision, audio, and video, enabling robust reasoning across multimodal inputs remains challenging. This survey systematically reviews recent advances in RL-based reasoning for MLLMs, covering key algorithmic designs, reward mechanism innovations, and practical applications. We highlight two main RL paradigms—value-free and value-based methods—and analyze how RL enhances reasoning abilities by optimizing reasoning trajectories and aligning multimodal information. Furthermore, we provide an extensive overview of benchmark datasets, evaluation protocols, and existing limitations, and propose future research directions to address current bottlenecks such as sparse rewards, inefficient cross-modal reasoning, and real-world deployment constraints. Our goal is to offer a comprehensive and structured guide to researchers interested in advancing RL-based reasoning in the multimodal era.
 
-## News
+# News 📣
 
 + **[2025-04-30] 🔥🔥 We have summarized the MLLM RL-Based Reasoning from January to March 2025 and released the first version of our survey on Reinforced MLLM on [arXiv](https://arxiv.org/abs/2504.21277).**
 
-## Methods 📝
+# Methods 📝
 
 | Model                     | Date | Org | Modality    | Strategy     | Algorithm     | Applications        |
 |------------------------|------|-------------|--------------|----------------|----------------------|------------------------|
@@ -66,9 +78,9 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | [X-Reasoner](https://arxiv.org/abs/2505.03981) | 5.06 | Microsoft | T&I | SFT&RL | GRPO | General Reasoning |
 | [EchoInk-R](https://arxiv.org/abs/2505.04623) | 5.07 | CUHK | T&I&V&A | RL | GRPO | Omni |
 
-### Image-Based 🌁
+## Image-Based 🌁
 
-#### General Reasoning
+### General Reasoning
 
 **Kimi k1.5: Scaling Reinforcement Learning with LLMs**
 
@@ -419,7 +431,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Benchmark           | GSM8K, MMLU-Pro, MMMU-Pro, MedQA, MathVista, NEJM Image Challenge |
 | Core Insights       | The authors introduce X-REASONER, a post-training recipe that enhances the reasoning capabilities of vision-language models using general-domain text-based supervision through combined SFT and RL strategies. X-REASONER demonstrates strong generalization across modalities and domains, achieving state-of-the-art performance on various benchmarks without multimodal training data. Additionally, the authors propose X-REASONER-MED, a medical-specialized variant that achieves new state-of-the-art results on medical tasks. |
 
-#### Vertical Domain
+### Vertical Domain
 
 **MetaSpatial: Reinforcing 3D Spatial Reasoning in VLMs for the Metaverse [Metaverse]**
 
@@ -534,11 +546,11 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | RL Algorithm        | GRPO                                                         |
 | Training Dataset    | MIMIC-CXR; ChexPert; MS-CXR-T                                |
 | Reward Function     | Format Reward, Outcome Accuracy Reward, Process Factuality Reward |
-| Policy Optimization | GRPO Loss + KL 正则                                          |
+| Policy Optimization | GRPO Loss + KL Loss                                          |
 | Benchmark           | RadRBench-CXR                                                |
 | Core Insights       | ChestX-Reasoner proposes to mine "step-by-step reasoning supervision signals" from real clinical reports, construct structured reasoning data, and introduce process rewards to optimize the medical diagnostic reasoning capabilities of MLLMs. |
 
-### Video-Based 📹
+## Video-Based 📹
 
 | Paper               | [TimeZero: Temporal Video Grounding with Reasoning-Guided LVLM](https://arxiv.org/abs/2503.13377) |
 | :------------------ | :----------------------------------------------------------- |
@@ -616,7 +628,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Benchmark           | VSI-Bench                                                    |
 | Core Insights       | Spatial-R1 proposes a task-aware GRPO reinforcement learning strategy, which, combined with the high-quality automated spatial reasoning dataset SR, significantly improves the ability of MLLMs to perform complex reasoning such as spatial scale, direction, and sequence in videos, surpassing GPT-4o and multiple open source models on VSI-Bench. |
 
-### Audio-Based 🎧
+## Audio-Based 🎧
 
 **R1-AQA: Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering**
 
@@ -644,7 +656,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Benchmark           | MMAU Test-mini; MMSU                                         |
 | Core Insights       | SARI proposes a structured Chain-of-Thought (CoT) + curriculum-guided GRPO fine-tuning framework, systematically evaluating the benefits of structured and unstructured reasoning strategies for audio reasoning models. The final model achieves a 67.08% SOTA performance on MMAU and demonstrates strong cross-domain generalization capabilities on MMSU. |
 
-### Omni 🤖
+## Omni 🤖
 
 **R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning**
 
@@ -672,7 +684,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Benchmark           | AVQA-R1-6K                                                   |
 | Core Insights       | The authors introduce EchoInk-R1, a reinforcement learning framework designed to enhance audio-visual reasoning in multimodal large language models (MLLMs). By leveraging GRPO and task-specific rewards, EchoInk-R1 achieves significant performance gains with minimal training iterations. Notably, the model demonstrates "aha moments," self-corrective reasoning behaviors that arise when revisiting initial assumptions under ambiguity, showcasing cross-modal reflective reasoning capabilities. |
 
-## Benchmarks 📈
+# Benchmarks 📈
 
 | Benchmark                                                    | Date | Org             | Modality | Applications         |
 | ------------------------------------------------------------ | ---- | --------------- | -------- | -------------------- |
@@ -741,13 +753,13 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Link          | -                                                            |
 | Core Insights | Multimodal (vision and text), designed tasks across visual complexity and reasoning difficulty to evaluate MLLMs' document understanding, OCR, and reasoning capabilities. |
 
-## Contribution and Acknowledgment❤️
+# Contribution and Acknowledgment ❤️
 
 This is an active repository, and your contributions are always welcome! If you have any questions, please feel free to contact me at [ghzhou@stu.ecnu.edu.cn](ghzhou@stu.ecnu.edu.cn).
 
 I sincerely thank all community members who have provided valuable supplementary support.
 
-## Citation 📄
+# Citation 📄
 
 If you find this repository useful for your research and applications, please star us ⭐ and consider citing:
 
