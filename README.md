@@ -474,7 +474,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 | Benchmark                                                    | Date | Org             | Modality | Applications         |
 | ------------------------------------------------------------ | ---- | --------------- | -------- | -------------------- |
-| [MME-CoT](https://arxiv.org/abs/2502.00698)                  | 2.02 | Tencent         | T&I      | Multi-Step Reasoning |
+| [MM-IQ](https://arxiv.org/abs/2502.00698)                  | 2.02 | Tencent         | T&I      | Multi-Step Reasoning |
 | [ZeroBench](https://arxiv.org/abs/2502.09696)                | 2.13 | Cambridge       | T&I      | Multi-Step Reasoning |
 | [MDK12-Bench](https://github.com/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs) | 4.08 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
 | [VCR-Bench](https://arxiv.org/abs/2504.07956)                | 4.10 | USTC            | T&V      | Multi-Step Reasoning |
