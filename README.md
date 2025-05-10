@@ -34,7 +34,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 # Table of Contents 📋
 
-- [Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models](#reinforced-mllm--a-survey-on-rl-based-reasoning-in-multimodal-large-language-models)
+- [Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models](#reinforced-mllm-a-survey-on-rl-based-reasoning-in-multimodal-large-language-models)
 - [News 📣](#news-)
 - [Methods 📝](#methods-)
   * [Image-Based 🌁](#image-based-)
@@ -48,6 +48,11 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 - [Citation 📄](#citation-)
 
 # Methods 📝
+
+<div align="center">
+<img src="assets/timeline.png" alt="timeline" 
+style="width:90%; height:auto;" />
+</div>
 
 | Model                     | Date | Org | Modality    | Strategy     | Algorithm     | Applications        |
 |------------------------|------|-------------|--------------|----------------|----------------------|------------------------|
@@ -499,6 +504,9 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 # Benchmarks 📈
 
+<img src="assets/benchmark2.png" alt="benchmark" 
+style="width:75%; height:auto;" />
+
 | Benchmark                                                    | Date | Org             | Modality | Applications         |
 | ------------------------------------------------------------ | ---- | --------------- | -------- | -------------------- |
 | [MM-IQ](https://arxiv.org/abs/2502.00698)                  | 2.02 | Tencent         | T&I      | Multi-Step Reasoning |
@@ -509,6 +517,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | [Video-MMLU](https://arxiv.org/abs/2504.14693)               | 4.20 | ZJU             | T&V      | Multi-Step Reasoning |
 | [VisuLogic](https://arxiv.org/abs/2504.15279)                | 4.21 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
 | [GDI-Bench](https://www.arxiv.org/abs/2505.00063)            | 4.30 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
+
 
 **MM-IQ: Benchmarking Human-Like Abstraction and Reasoning in Multimodal Models**
 
