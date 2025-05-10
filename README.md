@@ -18,7 +18,7 @@
   </p>
 </div>
 
-The integration of reinforcement learning (RL) into the reasoning capabilities of Multimodal Large Language Models (MLLMs) has rapidly emerged as a transformative research direction. While MLLMs significantly extend Large Language Models (LLMs) to handle diverse modalities such as vision, audio, and video, enabling robust reasoning across multimodal inputs remains challenging. This survey systematically reviews recent advances in RL-based reasoning for MLLMs, covering key algorithmic designs, reward mechanism innovations, and practical applications. We highlight two main RL paradigms—value-free and value-based methods—and analyze how RL enhances reasoning abilities by optimizing reasoning trajectories and aligning multimodal information. Furthermore, we provide an extensive overview of benchmark datasets, evaluation protocols, and existing limitations, and propose future research directions to address current bottlenecks such as sparse rewards, inefficient cross-modal reasoning, and real-world deployment constraints. Our goal is to offer a comprehensive and structured guide to researchers interested in advancing RL-based reasoning in the multimodal era.
+The integration of reinforcement learning (RL) into the reasoning capabilities of Multimodal Large Language Models (MLLMs) has rapidly emerged as a transformative research direction. While MLLMs significantly extend Large Language Models (LLMs) to handle diverse modalities such as vision, audio, and video, enabling robust reasoning across multimodal inputs remains challenging. This survey systematically reviews recent advances in RL-based reasoning for MLLMs, covering key algorithmic designs, reward mechanism innovations, and practical applications. We highlight two main RL paradigms—value-model-free and value-model-based methods—and analyze how RL enhances reasoning abilities by optimizing reasoning trajectories and aligning multimodal information. Furthermore, we provide an extensive overview of benchmark datasets, evaluation protocols, and existing limitations, and propose future research directions to address current bottlenecks such as sparse rewards, inefficient cross-modal reasoning, and real-world deployment constraints. Our goal is to offer a comprehensive and structured guide to researchers interested in advancing RL-based reasoning in the multimodal era.
 
 # News 📣
 
@@ -383,7 +383,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 **R1-SGG: Compile  Scene Graphs with Reinforcement Learning**
 
-| Paper               | R1-SGG: Compile Scene Graphs with Reinforcement Learning     |
+| Paper               | [R1-SGG: Compile Scene Graphs with Reinforcement Learning](https://www.arxiv.org/abs/2504.13617) |
 | :------------------ | :----------------------------------------------------------- |
 | Link                | [Code💻](https://github.com/gpt4vision/R1-SGG)                |
 | Base Model          | Qwen2-VL-7B-Instruct / Qwen2-VL-2B-Instruct                  |
@@ -396,7 +396,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 **SimpleAR: Pushing the Frontier of Autoregressive Visual Generation through Pretraining, SFT, and RL**
 
-| Paper               | **SimpleAR: Pushing the** **Frontier** **of Autoregressive Visual Generation through Pretraining,** SFT, and RL |
+| Paper               | [SimpleAR: Pushing the Frontier of Autoregressive Visual Generation through Pretraining, SFT, and RL](https://arxiv.org/abs/2504.11455) |
 | :------------------ | :----------------------------------------------------------- |
 | Link                | [Models🤗](https://huggingface.co/collections/Daniel0724/simplear-6805053f5b4b9961ac025136)   [Code💻](https://github.com/wdrink/SimpleAR) |
 | Base Model          | Qwen2.5-based decoder-only Transformer, Cosmos-Tokenizer（64K codebook） |
@@ -474,7 +474,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 **InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners  [GUI]**
 
-| Paper               | InfiGUI-R1: Advancing Multimodal** **GUI** **Agents from Reactive Actors to Deliberative Reasoners |
+| Paper               | [InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners](https://arxiv.org/abs/2504.14239) |
 | :------------------ | :----------------------------------------------------------- |
 | Link                | [Models🤗](https://huggingface.co/Reallm-Labs/InfiGUI-R1-3B)   [Code💻](https://github.com/Reallm-Labs/InfiGUI-R1) |
 | Base Model          | Qwen2.5-VL-3B-Instruct                                       |
@@ -755,7 +755,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 # Contribution and Acknowledgment ❤️
 
-This is an active repository, and your contributions are always welcome! If you have any questions, please feel free to contact me at [ghzhou@stu.ecnu.edu.cn](ghzhou@stu.ecnu.edu.cn).
+This is an active repository, and your contributions are always welcome! If you have any questions, please feel free to contact [ghzhou@stu.ecnu.edu.cn](ghzhou@stu.ecnu.edu.cn) or [panjiaqiu@stu.ecnu.edu.cn](panjiaqiu@stu.ecnu.edu.cn).
 
 I sincerely thank all community members who have provided valuable supplementary support.
 
