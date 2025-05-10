@@ -383,7 +383,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 **R1-SGG: Compile  Scene Graphs with Reinforcement Learning**
 
-| Paper               | R1-SGG: Compile Scene Graphs with Reinforcement Learning     |
+| Paper               | [R1-SGG: Compile Scene Graphs with Reinforcement Learning](https://www.arxiv.org/abs/2504.13617) |
 | :------------------ | :----------------------------------------------------------- |
 | Link                | [Code💻](https://github.com/gpt4vision/R1-SGG)                |
 | Base Model          | Qwen2-VL-7B-Instruct / Qwen2-VL-2B-Instruct                  |
@@ -396,7 +396,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 **SimpleAR: Pushing the Frontier of Autoregressive Visual Generation through Pretraining, SFT, and RL**
 
-| Paper               | **SimpleAR: Pushing the** **Frontier** **of Autoregressive Visual Generation through Pretraining,** SFT, and RL |
+| Paper               | [SimpleAR: Pushing the Frontier of Autoregressive Visual Generation through Pretraining, SFT, and RL](https://arxiv.org/abs/2504.11455) |
 | :------------------ | :----------------------------------------------------------- |
 | Link                | [Models🤗](https://huggingface.co/collections/Daniel0724/simplear-6805053f5b4b9961ac025136)   [Code💻](https://github.com/wdrink/SimpleAR) |
 | Base Model          | Qwen2.5-based decoder-only Transformer, Cosmos-Tokenizer（64K codebook） |
@@ -474,7 +474,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 **InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners  [GUI]**
 
-| Paper               | InfiGUI-R1: Advancing Multimodal** **GUI** **Agents from Reactive Actors to Deliberative Reasoners |
+| Paper               | [InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners](https://arxiv.org/abs/2504.14239) |
 | :------------------ | :----------------------------------------------------------- |
 | Link                | [Models🤗](https://huggingface.co/Reallm-Labs/InfiGUI-R1-3B)   [Code💻](https://github.com/Reallm-Labs/InfiGUI-R1) |
 | Base Model          | Qwen2.5-VL-3B-Instruct                                       |
