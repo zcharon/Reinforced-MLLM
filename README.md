@@ -506,6 +506,8 @@ style="width:90%; height:auto;" />
 
 ![benchmark](assets/benchmark.png "Example Image")
 
+<div style="display: flex; justify-content: center;">
+
 | Benchmark                                                    | Date | Org             | Modality | Applications         |
 | ------------------------------------------------------------ | ---- | --------------- | -------- | -------------------- |
 | [MM-IQ](https://arxiv.org/abs/2502.00698)                  | 2.02 | Tencent         | T&I      | Multi-Step Reasoning |
@@ -516,6 +518,8 @@ style="width:90%; height:auto;" />
 | [Video-MMLU](https://arxiv.org/abs/2504.14693)               | 4.20 | ZJU             | T&V      | Multi-Step Reasoning |
 | [VisuLogic](https://arxiv.org/abs/2504.15279)                | 4.21 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
 | [GDI-Bench](https://www.arxiv.org/abs/2505.00063)            | 4.30 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
+
+</div>
 
 **MM-IQ: Benchmarking Human-Like Abstraction and Reasoning in Multimodal Models**
 
