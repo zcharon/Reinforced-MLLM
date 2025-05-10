@@ -25,7 +25,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 + **[2025-04-30] 🔥🔥 We have summarized the MLLM RL-Based Reasoning from January to March 2025 and released the first version of our survey on Reinforced MLLM on [arXiv](https://arxiv.org/abs/2504.21277).**
 
-# Overview
+# Contens 📋
 
 - [Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models](#reinforced-mllm--a-survey-on-rl-based-reasoning-in-multimodal-large-language-models)
 - [News 📣](#news-)
@@ -41,9 +41,11 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 - [Citation 📄](#citation-)
 
 # Methods 📝
+<div style="text-align:center;">
 
-![timeline](assets/timeline.png "Example Image")
-
+<img src="assets/timeline.png" alt="timeline" 
+style="width:90%; height:auto;" />
+</div>
 | Model                     | Date | Org | Modality    | Strategy     | Algorithm     | Applications        |
 |------------------------|------|-------------|--------------|----------------|----------------------|------------------------|
 | [KIMI K1.5](https://arxiv.org/abs/2501.12599) | 1.22    | MoonshotAI | T&I             | SFT&RL             | OPMD                | General Reasoning |
