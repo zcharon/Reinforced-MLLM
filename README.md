@@ -90,6 +90,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Reward Function | Rule-Based (Accuracy)                                        |
 | Core Insights   | Effective long2short methods that use long-CoT techniques to improve short-CoT models, yielding state-of-the-art short-CoT reasoning results, outperforming existing short-CoT models.The author derives a long-CoT (Chain-of-Thought) RL formulation and employs a variant of online mirror descent to achieve policy optimization. By incorporating sampling strategies, length penalties, and data balancing, the method enables MLLMs (Multi-Layered Learning Models) to acquire chain-of-thought reasoning that exhibits characteristics of planning, reflection, and correction.To alleviate the overthinking phenomenon, the author proposes a length-penalized RL approach and multiple Long2Short methods. |
 
+<details><summary>Show More ...</summary>
+
 **Visual-RFT: Visual Reinforcement Fine-Tuning**
 
 | Paper           | [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/abs/2503.01785) |
@@ -296,6 +298,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Reward Function | Verifiable rewards based on mathematical textual questions   |
 | Core Insights   | The authors introduce X-REASONER, a post-training recipe that enhances the reasoning capabilities of vision-language models using general-domain text-based supervision through combined SFT and RL strategies. X-REASONER demonstrates strong generalization across modalities and domains, achieving state-of-the-art performance on various benchmarks without multimodal training data. Additionally, the authors propose X-REASONER-MED, a medical-specialized variant that achieves new state-of-the-art results on medical tasks. |
 
+</details>
+
 ### Vertical Domain
 
 **MetaSpatial: Reinforcing 3D Spatial Reasoning in VLMs for the Metaverse [Metaverse]**
@@ -305,6 +309,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Link            | [Datasets🤗](https://huggingface.co/datasets/zhenyupan/3d_layout_reasoning)    [Code💻](https://github.com/PzySeere/MetaSpatial) |
 | Reward Function | Format Reward, Physics Reward, Rendering-based Reward        |
 | Core Insights   | Enables VLMs to learn adaptive 3D spatial reasoning via multi-turn refinement and rule-based rewards, without requiring ground-truth layouts. |
+
+<details><summary>Show More ...</summary>
 
 **UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning  [GUI]**
 
@@ -370,6 +376,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Reward Function | Format Reward, Outcome Accuracy Reward, Process Factuality Reward |
 | Core Insights   | ChestX-Reasoner proposes to mine "step-by-step reasoning supervision signals" from real clinical reports, construct structured reasoning data, and introduce process rewards to optimize the medical diagnostic reasoning capabilities of MLLMs. |
 
+</details>
+
 ## Video-Based 📹
 
 | Paper           | [TimeZero: Temporal Video Grounding with Reasoning-Guided LVLM](https://arxiv.org/abs/2503.13377) |
@@ -377,6 +385,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Link            | [Datasets🤗](https://huggingface.co/datasets/Video-R1/Video-R1-data)   [Models🤗](https://huggingface.co/Video-R1/Video-R1-7B)   [Code💻](https://github.com/tulerfeng/Video-R1) |
 | Reward Function | Rule-Based Reward (Template Reward, IoU Reward)              |
 | Core Insights   | The authors propose TimeZero, a reasoning-driven LVLM for the temporal video grounding (TVG) task. It uses reinforcement learning to enhance video-language relationship reasoning before making predictions. TimeZero achieves state-of-the-art performance on Charades-STA and demonstrates strong generalization capabilities on out-of-domain tests. The incorporation of Chain-of-Thought (CoT) during training and inference further improves its performance. |
+
+<details><summary>Show More ...</summary>
 
 **Video-R1: Reinforcing Video Reasoning in MLLMs** 
 
@@ -418,6 +428,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Reward Function | Format Reward, Numerical Accuracy Reward, Multiple Choice Accuracy Reward |
 | Core Insights   | Spatial-R1 proposes a task-aware GRPO reinforcement learning strategy, which, combined with the high-quality automated spatial reasoning dataset SR, significantly improves the ability of MLLMs to perform complex reasoning such as spatial scale, direction, and sequence in videos, surpassing GPT-4o and multiple open source models on VSI-Bench. |
 
+</details>
+
 ## Audio-Based 🎧
 
 **R1-AQA: Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering**
@@ -427,6 +439,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Link            | [Models🤗](https://huggingface.co/mispeech/r1-aqa)   [Code💻](https://github.com/xiaomi-research/r1-aqa) |
 | Reward Function | Rule-Based Reward (Accuracy, Format)                         |
 | Core Insights   | Applies GRPO to LALMs under limited supervision, achieving strong gains on AQA tasks with minimal data. |
+
+<details><summary>Show More...</summary>
 
 **SARI: Structured Audio Reasoning via Curriculum-Guided Reinforcement Learning**
 
@@ -454,6 +468,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | Reward Function | Answer Accuracy, Format Consistency                          |
 | Core Insights   | The authors introduce EchoInk-R1, a reinforcement learning framework designed to enhance audio-visual reasoning in multimodal large language models (MLLMs). By leveraging GRPO and task-specific rewards, EchoInk-R1 achieves significant performance gains with minimal training iterations. Notably, the model demonstrates "aha moments," self-corrective reasoning behaviors that arise when revisiting initial assumptions under ambiguity, showcasing cross-modal reflective reasoning capabilities. |
 
+</details>
+
 # Benchmarks 📈
 
 | Benchmark                                                    | Date | Org             | Modality | Applications         |
@@ -473,6 +489,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | :------------ | :----------------------------------------------------------- |
 | Link          | [Project🎯](https://acechq.github.io/MMIQ-benchmark/)  [Datasets🤗](https://acechq.github.io/MMIQ-benchmark/)   [Code💻](https://acechq.github.io/MMIQ-benchmark/) |
 | Core Insights | MM-IQ is a multimodal benchmark comprising 2,710 visual reasoning problems across 8 distinct paradigms (e.g., logical operations, 2D/3D geometry, spatial relationships). It evaluates MLLMs' abstraction and reasoning capabilities, focusing on high-level cognitive abilities without linguistic or domain-specific biases. |
+
+<details><summary>Show More...</summary>
 
 **ZeroBench: An Impossible Visual Benchmark for Contemporary Large Multimodal Models**
 
@@ -522,6 +540,8 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | :------------ | :----------------------------------------------------------- |
 | Link          | -                                                            |
 | Core Insights | Multimodal (vision and text), designed tasks across visual complexity and reasoning difficulty to evaluate MLLMs' document understanding, OCR, and reasoning capabilities. |
+
+</details>
 
 # Contribution and Acknowledgment ❤️
 
