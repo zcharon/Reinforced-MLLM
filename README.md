@@ -18,7 +18,7 @@
   </p>
 </div>
 
-The integration of reinforcement learning (RL) into the reasoning capabilities of Multimodal Large Language Models (MLLMs) has rapidly emerged as a transformative research direction. While MLLMs significantly extend Large Language Models (LLMs) to handle diverse modalities such as vision, audio, and video, enabling robust reasoning across multimodal inputs remains challenging. This survey systematically reviews recent advances in RL-based reasoning for MLLMs, covering key algorithmic designs, reward mechanism innovations, and practical applications. We highlight two main RL paradigms—value-free and value-based methods—and analyze how RL enhances reasoning abilities by optimizing reasoning trajectories and aligning multimodal information. Furthermore, we provide an extensive overview of benchmark datasets, evaluation protocols, and existing limitations, and propose future research directions to address current bottlenecks such as sparse rewards, inefficient cross-modal reasoning, and real-world deployment constraints. Our goal is to offer a comprehensive and structured guide to researchers interested in advancing RL-based reasoning in the multimodal era.
+The integration of reinforcement learning (RL) into the reasoning capabilities of Multimodal Large Language Models (MLLMs) has rapidly emerged as a transformative research direction. While MLLMs significantly extend Large Language Models (LLMs) to handle diverse modalities such as vision, audio, and video, enabling robust reasoning across multimodal inputs remains challenging. This survey systematically reviews recent advances in RL-based reasoning for MLLMs, covering key algorithmic designs, reward mechanism innovations, and practical applications. We highlight two main RL paradigms—value-model-free and value-model-based methods—and analyze how RL enhances reasoning abilities by optimizing reasoning trajectories and aligning multimodal information. Furthermore, we provide an extensive overview of benchmark datasets, evaluation protocols, and existing limitations, and propose future research directions to address current bottlenecks such as sparse rewards, inefficient cross-modal reasoning, and real-world deployment constraints. Our goal is to offer a comprehensive and structured guide to researchers interested in advancing RL-based reasoning in the multimodal era.
 
 # News 📣
 
@@ -755,7 +755,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 # Contribution and Acknowledgment ❤️
 
-This is an active repository, and your contributions are always welcome! If you have any questions, please feel free to contact me at [ghzhou@stu.ecnu.edu.cn](ghzhou@stu.ecnu.edu.cn).
+This is an active repository, and your contributions are always welcome! If you have any questions, please feel free to contact [ghzhou@stu.ecnu.edu.cn](ghzhou@stu.ecnu.edu.cn) or [panjiaqiu@stu.ecnu.edu.cn](panjiaqiu@stu.ecnu.edu.cn).
 
 I sincerely thank all community members who have provided valuable supplementary support.
 
