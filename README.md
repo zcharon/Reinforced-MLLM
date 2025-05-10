@@ -384,7 +384,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 | :-------------- | :----------------------------------------------------------- |
 | Link            | [Datasets🤗](https://huggingface.co/datasets/Video-R1/Video-R1-data)   [Models🤗](https://huggingface.co/Video-R1/Video-R1-7B)   [Code💻](https://github.com/tulerfeng/Video-R1) |
 | Reward Function | Rule-Based Reward (Template Reward, IoU Reward)              |
-| Core Insights   | The authors propose TimeZero, a reasoning-driven LVLM for the temporal video grounding (TVG) task. It uses reinforcement learning to enhance video-language relationship reasoning before making predictions. TimeZero achieves state-of-the-art performance on Charades-STA and demonstrates strong generalization capabilities on out-of-domain tests. The incorporation of Chain-of-Thought (CoT) during training and inference further improves its performance. |
+| Core Insights   | The authors propose TimeZero, a reasoning-driven LVLM for temporal video grounding (TVG). It uses reinforcement learning to enhance video-language reasoning before predictions. |
 
 <details><summary>Show More ...</summary>
 
