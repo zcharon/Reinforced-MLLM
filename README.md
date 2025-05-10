@@ -504,9 +504,8 @@ style="width:90%; height:auto;" />
 
 # Benchmarks 📈
 
-![benchmark](assets/benchmark.png "Example Image")
-
-<div style="display: flex; justify-content: center;">
+<img src="assets/benchmark2.png" alt="benchmark" 
+style="width:80%; height:auto;" />
 
 | Benchmark                                                    | Date | Org             | Modality | Applications         |
 | ------------------------------------------------------------ | ---- | --------------- | -------- | -------------------- |
@@ -519,7 +518,6 @@ style="width:90%; height:auto;" />
 | [VisuLogic](https://arxiv.org/abs/2504.15279)                | 4.21 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
 | [GDI-Bench](https://www.arxiv.org/abs/2505.00063)            | 4.30 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
 
-</div>
 
 **MM-IQ: Benchmarking Human-Like Abstraction and Reasoning in Multimodal Models**
 
