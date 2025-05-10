@@ -18,6 +18,14 @@
   </p>
 </div>
 
+<div align="center">
+<img src="assets/timeline.png" alt="timeline" 
+style="width:90%; height:auto;" />
+
+![benchmark](assets/benchmark.png "Example Image")
+
+</div>
+
 The integration of reinforcement learning (RL) into the reasoning capabilities of Multimodal Large Language Models (MLLMs) has rapidly emerged as a transformative research direction. While MLLMs significantly extend Large Language Models (LLMs) to handle diverse modalities such as vision, audio, and video, enabling robust reasoning across multimodal inputs remains challenging. This survey systematically reviews recent advances in RL-based reasoning for MLLMs, covering key algorithmic designs, reward mechanism innovations, and practical applications. We highlight two main RL paradigms—value-model-free and value-model-based methods—and analyze how RL enhances reasoning abilities by optimizing reasoning trajectories and aligning multimodal information. Furthermore, we provide an extensive overview of benchmark datasets, evaluation protocols, and existing limitations, and propose future research directions to address current bottlenecks such as sparse rewards, inefficient cross-modal reasoning, and real-world deployment constraints. Our goal is to offer a comprehensive and structured guide to researchers interested in advancing RL-based reasoning in the multimodal era.
 
 
@@ -25,7 +33,7 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 + **[2025-04-30] 🔥🔥 We have summarized the MLLM RL-Based Reasoning from January to March 2025 and released the first version of our survey on Reinforced MLLM on [arXiv](https://arxiv.org/abs/2504.21277).**
 
-# Contens 📋
+# Table of Contents 📋
 
 - [Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models](#reinforced-mllm--a-survey-on-rl-based-reasoning-in-multimodal-large-language-models)
 - [News 📣](#news-)
@@ -41,11 +49,6 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 - [Citation 📄](#citation-)
 
 # Methods 📝
-<div style="text-align:center;">
-
-<img src="assets/timeline.png" alt="timeline" 
-style="width:90%; height:auto;" />
-</div>
 
 | Model                     | Date | Org | Modality    | Strategy     | Algorithm     | Applications        |
 |------------------------|------|-------------|--------------|----------------|----------------------|------------------------|
@@ -496,8 +499,6 @@ style="width:90%; height:auto;" />
 </details>
 
 # Benchmarks 📈
-
-![benchmark](assets/benchmark.png "Example Image")
 
 | Benchmark                                                    | Date | Org             | Modality | Applications         |
 | ------------------------------------------------------------ | ---- | --------------- | -------- | -------------------- |
