@@ -13,7 +13,7 @@
     <a href="#benchmarks-" style="text-decoration: none; font-weight: bold;">Benchmarks 📈</a>
   </p>
   <p>
-    <a href="#contribution-and-acknowledgment-❤️" style="text-decoration: none; font-weight: bold;">Contribution and Acknowledgment ❤️</a> - 
+    <a href="#contribution-and-acknowledgment-%EF%B8%8F" style="text-decoration: none; font-weight: bold;">Contribution and Acknowledgment ❤️</a> - 
     <a href="#citation-" style="text-decoration: none; font-weight: bold;">Citation 📄</a>
   </p>
 </div>
