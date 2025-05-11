@@ -56,52 +56,52 @@ style="width:90%; height:auto;" />
 
 | Model                     | Date | Org | Modality    | Strategy     | Algorithm     | Applications        |
 |------------------------|------|-------------|--------------|----------------|----------------------|------------------------|
-| [KIMI K1.5](#kimi-k15--scaling-reinforcement-learning-with-llms) | 1.22    | MoonshotAI | T&I             | SFT&RL             | OPMD                | General Reasoning |
-| [MedVLM-R1](#medvlm-r1--incentivizing-medical-reasoning-capability-of-vision-language-models-via-reinforcement-learning--medical-) | 2.26    | TUM | T&I             | RL                 | GRPO                | Medical                |
-| [Visual-RFT](#visual-rft--visual-reinforcement-fine-tuning) | 3.03    | SJTU | T&I             | RL                 | GRPO                | Detection&CLS          |
-| [R1-Omni](#r1-omni--explainable-omni-multimodal-emotion-recognition-with-reinforcement-learning) | 3.07    | Alibaba | T&V&A           | SFT&RL             | GRPO                | Omni |
-| [VisualThinker-R1-Zero](#visualthinker-r1-zero--r1-zero-s--aha-moment--in-visual-reasoning-on-a-2b-non-sft-model) | 3.07    | UCLA | T&I             | RL                 | GRPO                | Spatial Reasoning      |
-| [Vision-R1](#vision-r1--incentivizing-reasoning-capability-in-multimodal-large-language--models) | 3.09    | ECNU | T&I             | SFT&RL             | GRPO+PTST           | General Reasoning |
-| [Seg-Zero](#seg-zero--reasoning-chain-guided-segmentation-via-cognitive-reinforcement) | 3.09    | CUHK | T&I             | RL                 | GRPO                | Segmentation           |
+| [KIMI K1.5](#kimi-k15-scaling-reinforcement-learning-with-llms) | 1.22    | MoonshotAI | T&I             | SFT&RL             | OPMD                | General Reasoning |
+| [MedVLM-R1](#medvlm-r1-incentivizing-medical-reasoning-capability-of-vision-language-models-via-reinforcement-learning--medical-) | 2.26    | TUM | T&I             | RL                 | GRPO                | Medical                |
+| [Visual-RFT](#visual-rft-visual-reinforcement-fine-tuning) | 3.03    | SJTU | T&I             | RL                 | GRPO                | Detection&CLS          |
+| [R1-Omni](#r1-omni-explainable-omni-multimodal-emotion-recognition-with-reinforcement-learning) | 3.07    | Alibaba | T&V&A           | SFT&RL             | GRPO                | Omni |
+| [VisualThinker-R1-Zero](#visualthinker-r1-zero-r1-zero-s-aha-moment-in-visual-reasoning-on-a-2b-non-sft-model) | 3.07    | UCLA | T&I             | RL                 | GRPO                | Spatial Reasoning      |
+| [Vision-R1](#vision-r1-incentivizing-reasoning-capability-in-multimodal-large-language-models) | 3.09    | ECNU | T&I             | SFT&RL             | GRPO+PTST           | General Reasoning |
+| [Seg-Zero](#seg-zero-reasoning-chain-guided-segmentation-via-cognitive-reinforcement) | 3.09    | CUHK | T&I             | RL                 | GRPO                | Segmentation           |
 | [GFlowVLM](https://arxiv.org/abs/2503.06514) | 3.09    | HRI-US | T&I             | SFT&RL             | GFlowNet            | General Reasoning |
-| [MM-Eureka](#mm-eureka--exploring-visual-aha-moment-with-rule-based-large-scale-reinforcement-learning) | 3.10    | Shanghai AI Lab | T&I             | RL                 | RLOO                | Math                   |
-| [Curr-ReFT](#curr-reft--boosting-the-generalization-and-reasoning-of-vision-language-models-with--curriculum-reinforcement-learning) | 3.10    | USTC | T&I             | RL                 | GRPO                | General Reasoning |
-| [LMM-R1](#lmm-r1--empowering-3b-lmms-with-strong-reasoning-abilities-through--two-stage-rule-based-rl) | 3.10    | SEU | T&I             | RL                 | PPO                 | General Reasoning |
-| [R1-Onevision](#r1-onevision--advancing-generalized-multimodal-reasoning-through-cross-modal-formalization) | 3.13    | ZJU | T&I             | SFT&RL             | GPRO                | General Reasoning |
-| [R1-AQA](#r1-aqa--reinforcement-learning-outperforms-supervised-fine-tuning--a-case-study-on-audio-question-answering) | 3.14    | Xiaomi | T&A             | RL                 | GRPO                | Audio QA               |
-| [R1-VL](#r1-vl--learning-to-reason-with-multimodal-large-language-models-via-step-wise-group-relative-policy-optimization) | 3.17    | NTU | T&I             | SFT&RL             | StepGRPO            | General Reasoning |
-| [TimeZero](#-timezero--temporal-video-grounding-with-reasoning-guided-lvlm-) | 3.17 | RUC | T&V | RL | GRPO | Video Grounding |
-| [Skywork R1V](#skywork-r1v--pioneering-multimodal-reasoning-with-chain-of-thought) | 3.18    | Skywork AI | T&I | SFT&RL | GRPO | General Reasoning |
-| [Med-R1](#med-r1--reinforcement-learning-for-generalizable-medical-reasoning-in-vision-language-models) | 3.18 | Emory | T&I | RL | GRPO | Medical |
-| [OThink-MR1](#othink-mr1--stimulating-multimodal-generalized-reasoning-capabilities-via-dynamic-reinforcement-learning) | 3.20    | OPPO | T&I             | RL                 | GRPO-D              | General Reasoning |
-| [OpenVLThinker](#openvlthinker--an-early-exploration-to-complex-vision-language-reasoning-via-iterative-self-improvement) | 3.21    | UCLA | T&I             | SFT&RL             | GRPO                | Math                   |
-| [MetaSpatial](#metaspatial--reinforcing-3d-spatial-reasoning-in-vlms-for-the-metaverse--metaverse-) | 3.24    | NU  | T&I             | RL                 | GRPO                | Spatial Reasoning      |
-| [Reason-RFT](#reason-rft--reinforcement-fine-tuning-for-visual-reasoning) | 3.26    | PKU | T&I             | RL                 | GRPO                | General Reasoning |
-| [Video-R1](#video-r1--reinforcing-video-reasoning-in-mllms) | 3.27 | CUHK | T&V      | SFT&RL     | T-GRPO       | General Reasoning  |
-| [UI-R1](#ui-r1--enhancing-action-prediction-of-gui-agents-by-reinforcement-learning---gui-) | 3.27 | VIVO | T&I      | RL         | GRPO         | GUI                        |
-| [Q-Insight](#q-insight--understanding-image-quality-via-visual-reinforcement-learning---image-quality-) | 3.28 | PKU | T&I | RL | GRPO | mage Quality |
-| [Spatial-R1](#spatial-r1--enhancing-mllms-in-video-spatial-reasoning) | 4.02 | PKU | T&V      | RL         | GRPO         | Spatial Reasoning          |
-| [SThinkLite-VL](#sota-with-less--mcts-guided-sample-selection-for-data-efficient-visual-reasoning-self-improvement) | 4.10 | UMD | T&I | RL | GRPO | General Reasoning |
+| [MM-Eureka](#mm-eureka-exploring-visual-aha-moment-with-rule-based-large-scale-reinforcement-learning) | 3.10    | Shanghai AI Lab | T&I             | RL                 | RLOO                | Math                   |
+| [Curr-ReFT](#curr-reft-boosting-the-generalization-and-reasoning-of-vision-language-models-with-curriculum-reinforcement-learning) | 3.10    | USTC | T&I             | RL                 | GRPO                | General Reasoning |
+| [LMM-R1](#lmm-r1-empowering-3b-lmms-with-strong-reasoning-abilities-through-two-stage-rule-based-rl) | 3.10    | SEU | T&I             | RL                 | PPO                 | General Reasoning |
+| [R1-Onevision](#r1-onevision-advancing-generalized-multimodal-reasoning-through-cross-modal-formalization) | 3.13    | ZJU | T&I             | SFT&RL             | GPRO                | General Reasoning |
+| [R1-AQA](#r1-aqa-reinforcement-learning-outperforms-supervised-fine-tuning-a-case-study-on-audio-question-answering) | 3.14    | Xiaomi | T&A             | RL                 | GRPO                | Audio QA               |
+| [R1-VL](#r1-vl-learning-to-reason-with-multimodal-large-language-models-via-step-wise-group-relative-policy-optimization) | 3.17    | NTU | T&I             | SFT&RL             | StepGRPO            | General Reasoning |
+| [TimeZero](#-timezero-temporal-video-grounding-with-reasoning-guided-lvlm-) | 3.17 | RUC | T&V | RL | GRPO | Video Grounding |
+| [Skywork R1V](#skywork-r1v-pioneering-multimodal-reasoning-with-chain-of-thought) | 3.18    | Skywork AI | T&I | SFT&RL | GRPO | General Reasoning |
+| [Med-R1](#med-r1-reinforcement-learning-for-generalizable-medical-reasoning-in-vision-language-models) | 3.18 | Emory | T&I | RL | GRPO | Medical |
+| [OThink-MR1](#othink-mr1-stimulating-multimodal-generalized-reasoning-capabilities-via-dynamic-reinforcement-learning) | 3.20    | OPPO | T&I             | RL                 | GRPO-D              | General Reasoning |
+| [OpenVLThinker](#openvlthinker-an-early-exploration-to-complex-vision-language-reasoning-via-iterative-self-improvement) | 3.21    | UCLA | T&I             | SFT&RL             | GRPO                | Math                   |
+| [MetaSpatial](#metaspatial-reinforcing-3d-spatial-reasoning-in-vlms-for-the-metaverse--metaverse-) | 3.24    | NU  | T&I             | RL                 | GRPO                | Spatial Reasoning      |
+| [Reason-RFT](#reason-rft-reinforcement-fine-tuning-for-visual-reasoning) | 3.26    | PKU | T&I             | RL                 | GRPO                | General Reasoning |
+| [Video-R1](#video-r1-reinforcing-video-reasoning-in-mllms) | 3.27 | CUHK | T&V      | SFT&RL     | T-GRPO       | General Reasoning  |
+| [UI-R1](#ui-r1-enhancing-action-prediction-of-gui-agents-by-reinforcement-learning---gui-) | 3.27 | VIVO | T&I      | RL         | GRPO         | GUI                        |
+| [Q-Insight](#q-insight-understanding-image-quality-via-visual-reinforcement-learning---image-quality-) | 3.28 | PKU | T&I | RL | GRPO | mage Quality |
+| [Spatial-R1](#spatial-r1-enhancing-mllms-in-video-spatial-reasoning) | 4.02 | PKU | T&V      | RL         | GRPO         | Spatial Reasoning          |
+| [SThinkLite-VL](#sota-with-less-mcts-guided-sample-selection-for-data-efficient-visual-reasoning-self-improvement) | 4.10 | UMD | T&I | RL | GRPO | General Reasoning |
 | [Kimi-VL](https://arxiv.org/abs/2504.07491) | 4.10 | MoonshotAI | T&I&V    | SFT&RL     | OPMD         | General Reasoning  |
-| [Perception-R1](#perception-r1--pioneering-perception-policy-with-reinforcement-learning) | 4.10 | HUST | T&I      | RL         | GRPO         | General Reasoning  |
-| [VideoChat-R1](#videochat-r1--enhancing-spatio-temporal-perception-via-reinforcement-fine-tuning) | 4.10 | Shanghai AI Lab | T&V      | RL         | GRPO         | Spatio-Temporal Perception |
-| [VLAA-Thinker](#vlaa-thinker--sft-or-rl--an-early-investigation-into-training-r1-like-reasoning-large-vision-language-models) | 4.10 | UCSC | T&I      | RL         | GRPO         | General Reasoning  |
-| [VL-Rethinker](#vl-rethinker--incentivizing-self-reflection-of-vision-language-models-with-reinforcement-learning) | 4.10 | HKUST | T&I      | RL         | GRPO-SSR     | General Reasoning  |
-| [R1-Zero-VSI](#r1-zero-vsi--improved-visual-spatial-reasoning-via-r1-zero-like-training) | 4.14 | SJTU | T&V      | RL         | GRPO         | Spatial Reasoning          |
-| [VLM-R1](#vlm-r1--a-stable-and-generalizable-r1-style-large-vision-language-model) | 4.14 | ZJU | T&I      | RL         | GRPO         | GUI                        |
-| [GUI-R1](#gui-r1---a-generalist-r1-style-vision-language-action-model-for-gui-agents---gui-) | 4.14 | SIAT | T&I      | SFT&RL     | GRPO         | Action Prediction          |
-| [TinyLLaVA-Video-R1](#tinyllava-video-r1--towards-smaller-lmms-for-video-reasoning) | 4.14 | BUAA | T&V      | RL         | GRPO         | Spatio-Temporal Perception |
-| [SimpleAR](#simplear--pushing-the-frontier-of-autoregressive-visual-generation-through-pretraining--sft--and-rl) | 4.15 | FDU | T&I | SFT&RL | GRPO | Image Generation |
-| [Embodied-R](#embodied-r--collaborative-framework-for-activating-embodied-spatial-reasoning-in-foundation-models-via-reinforcement-learning--embodied-) | 4.17 | THU | T&V | RL         | GRPO         | Spatial Reasoning          |
-| [NoisyRollout](#noisyrollout--reinforcing-visual-reasoning-with-data-augmentation) | 4.18 | NUS | T&I      | RL         | GRPO         | Math                       |
-| [R1-SGG](#r1-sgg--compile--scene-graphs-with-reinforcement-learning) | 4.18 | HKPU | T&I      | SFT&RL     | GRPO         | Scene Graph Generation     |
-| [InfiGUI-R1](#infigui-r1--advancing-multimodal-gui-agents-from-reactive-actors-to-deliberative-reasoners---gui-) | 4.19 | ZJU | T&I      | SFT&RL     | RLOO         | GUI                        |
-| [Relation-R1](#relation-r1--cognitive-chain-of-thought-guided-reinforcement-learning-for-unified-relational-comprehension) | 4.20 | HKUST | T&I      | SFT&RL     | GRPO         | Relation Reasoning         |
-| [SARI](#sari--structured-audio-reasoning-via-curriculum-guided-reinforcement-learning) | 4.22  | Beike | T&A          | SFT&RL                  | GRPO            | Audio Reasoning              |
-| [Skywork R1V2](#skywork-r1v2--multimodal-hybrid-reinforcement-learning-for-reasoning) | 4.23 | Skywork AI | T&I      | MPO&RL     | GRPO&SSB     | General Reasoning  |
-| [FAST](#fast--fast-slow-thinking-for-large-vision-language-model-reasoning) | 4.25 | ZJU | T&I      | RL         | FAST-GRPO    | General Reasoning  |
-| [ChestX-Reasoner](#chestx-reasoner--advancing-radiology-foundation-models-with-reasoning-through-step-by-step-verification---medical-) | 4.29  | SJTU | T&I          | SFT&RL                  | GRPO            | Medical                      |
-| [T2I-R1](#t2i-r1--reinforcing-image-generation-with-collaborative-semantic-level-and-token-level-cot) | 5.01 | CUHK | T&I | RL | BiCoT-GRPO | Image Generation |
+| [Perception-R1](#perception-r1-pioneering-perception-policy-with-reinforcement-learning) | 4.10 | HUST | T&I      | RL         | GRPO         | General Reasoning  |
+| [VideoChat-R1](#videochat-r1-enhancing-spatio-temporal-perception-via-reinforcement-fine-tuning) | 4.10 | Shanghai AI Lab | T&V      | RL         | GRPO         | Spatio-Temporal Perception |
+| [VLAA-Thinker](#vlaa-thinker-sft-or-rl-an-early-investigation-into-training-r1-like-reasoning-large-vision-language-models) | 4.10 | UCSC | T&I      | RL         | GRPO         | General Reasoning  |
+| [VL-Rethinker](#vl-rethinker-incentivizing-self-reflection-of-vision-language-models-with-reinforcement-learning) | 4.10 | HKUST | T&I      | RL         | GRPO-SSR     | General Reasoning  |
+| [R1-Zero-VSI](#r1-zero-vsi-improved-visual-spatial-reasoning-via-r1-zero-like-training) | 4.14 | SJTU | T&V      | RL         | GRPO         | Spatial Reasoning          |
+| [VLM-R1](#vlm-r1-a-stable-and-generalizable-r1-style-large-vision-language-model) | 4.14 | ZJU | T&I      | RL         | GRPO         | GUI                        |
+| [GUI-R1](#gui-r1-a-generalist-r1-style-vision-language-action-model-for-gui-agents---gui-) | 4.14 | SIAT | T&I      | SFT&RL     | GRPO         | Action Prediction          |
+| [TinyLLaVA-Video-R1](#tinyllava-video-r1-towards-smaller-lmms-for-video-reasoning) | 4.14 | BUAA | T&V      | RL         | GRPO         | Spatio-Temporal Perception |
+| [SimpleAR](#simplear-pushing-the-frontier-of-autoregressive-visual-generation-through-pretraining-sft-and-rl) | 4.15 | FDU | T&I | SFT&RL | GRPO | Image Generation |
+| [Embodied-R](#embodied-r-collaborative-framework-for-activating-embodied-spatial-reasoning-in-foundation-models-via-reinforcement-learning-embodied-) | 4.17 | THU | T&V | RL         | GRPO         | Spatial Reasoning          |
+| [NoisyRollout](#noisyrollout-reinforcing-visual-reasoning-with-data-augmentation) | 4.18 | NUS | T&I      | RL         | GRPO         | Math                       |
+| [R1-SGG](#r1-sgg-compile-scene-graphs-with-reinforcement-learning) | 4.18 | HKPU | T&I      | SFT&RL     | GRPO         | Scene Graph Generation     |
+| [InfiGUI-R1](#infigui-r1-advancing-multimodal-gui-agents-from-reactive-actors-to-deliberative-reasoners-gui-) | 4.19 | ZJU | T&I      | SFT&RL     | RLOO         | GUI                        |
+| [Relation-R1](#relation-r1-cognitive-chain-of-thought-guided-reinforcement-learning-for-unified-relational-comprehension) | 4.20 | HKUST | T&I      | SFT&RL     | GRPO         | Relation Reasoning         |
+| [SARI](#sari-structured-audio-reasoning-via-curriculum-guided-reinforcement-learning) | 4.22  | Beike | T&A          | SFT&RL                  | GRPO            | Audio Reasoning              |
+| [Skywork R1V2](#skywork-r1v2-multimodal-hybrid-reinforcement-learning-for-reasoning) | 4.23 | Skywork AI | T&I      | MPO&RL     | GRPO&SSB     | General Reasoning  |
+| [FAST](#fast-fast-slow-thinking-for-large-vision-language-model-reasoning) | 4.25 | ZJU | T&I      | RL         | FAST-GRPO    | General Reasoning  |
+| [ChestX-Reasoner](#chestx-reasoner-advancing-radiology-foundation-models-with-reasoning-through-step-by-step-verification-medical-) | 4.29  | SJTU | T&I          | SFT&RL                  | GRPO            | Medical                      |
+| [T2I-R1](#t2i-r1-reinforcing-image-generation-with-collaborative-semantic-level-and-token-level-cot) | 5.01 | CUHK | T&I | RL | BiCoT-GRPO | Image Generation |
 | [X-Reasoner](https://arxiv.org/abs/2505.03981) | 5.06 | Microsoft | T&I | SFT&RL | GRPO | General Reasoning |
 | [EchoInk-R](https://arxiv.org/abs/2505.04623) | 5.07 | CUHK | T&I&V&A | RL | GRPO | Omni |
 
@@ -510,14 +510,14 @@ style="width:75%; height:auto;" />
 
 | Benchmark                                                    | Date | Org             | Modality | Applications         |
 | ------------------------------------------------------------ | ---- | --------------- | -------- | -------------------- |
-| [MM-IQ](https://arxiv.org/abs/2502.00698)                  | 2.02 | Tencent         | T&I      | Multi-Step Reasoning |
-| [ZeroBench](https://arxiv.org/abs/2502.09696)                | 2.13 | Cambridge       | T&I      | Multi-Step Reasoning |
-| [MDK12-Bench](https://github.com/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs) | 4.08 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
-| [VCR-Bench](https://arxiv.org/abs/2504.07956)                | 4.10 | USTC            | T&V      | Multi-Step Reasoning |
-| [GeoSense](https://arxiv.org/abs/2504.12597)                 | 4.17 | Alibaba         | T&I      | Geometry Reasoning   |
-| [Video-MMLU](https://arxiv.org/abs/2504.14693)               | 4.20 | ZJU             | T&V      | Multi-Step Reasoning |
-| [VisuLogic](https://arxiv.org/abs/2504.15279)                | 4.21 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
-| [GDI-Bench](https://www.arxiv.org/abs/2505.00063)            | 4.30 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
+| [MM-IQ](#mm-iq-benchmarking-human-like-abstraction-and-reasoning-in-multimodal-models)                  | 2.02 | Tencent         | T&I      | Multi-Step Reasoning |
+| [ZeroBench](#zerobench-an-impossible-visual-benchmark-for-contemporary-large-multimodal-models)                | 2.13 | Cambridge       | T&I      | Multi-Step Reasoning |
+| [MDK12-Bench](#mdk12-bench-a-multi-discipline-benchmark-for-evaluating-reasoning-in-multimodal-large-language-models) | 4.08 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
+| [VCR-Bench](#vcr-bench-a-comprehensive-evaluation-framework-for-video-chain-of-thought-reasoning)                | 4.10 | USTC            | T&V      | Multi-Step Reasoning |
+| [GeoSense](#geosense-evaluating-identification-and-application-of-geometric-principles-in-multimodal-reasoning)                 | 4.17 | Alibaba         | T&I      | Geometry Reasoning   |
+| [Video-MMLU](#video-mmlu-a-massive-multi-discipline-lecture-understanding-benchmark)               | 4.20 | ZJU             | T&V      | Multi-Step Reasoning |
+| [VisuLogic](#visulogic-a-benchmark-for-evaluating-visual-reasoning-in-multi-modal-large-language-models)                | 4.21 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
+| [GDI-Bench](#gdi-bench-a-benchmark-for-general-document-intelligence-with-vision-and-reasoning-decoupling)            | 4.30 | Shanghai AI Lab | T&I      | Multi-Step Reasoning |
 
 
 ##### MM-IQ: Benchmarking Human-Like Abstraction and Reasoning in Multimodal Models
