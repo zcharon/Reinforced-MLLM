@@ -105,6 +105,7 @@ style="width:90%; height:auto;" />
 | [T2I-R1](https://arxiv.org/abs/2505.00703) | 5.01 | CUHK | T&I | RL | BiCoT-GRPO | Image Generation |
 | [X-Reasoner](https://arxiv.org/abs/2505.03981) | 5.06 | Microsoft | T&I | SFT&RL | GRPO | General Reasoning |
 | [EchoInk-R](https://arxiv.org/abs/2505.04623) | 5.07 | CUHK | T&I&V&A | RL | GRPO | Omni |
+| [Flow-GRPO](https://www.arxiv.org/abs/2505.05470) | 5.08 | CUHK | T&I | SFT&RL | GRPO | Image Generation |
 
 ## Image-Based 🌁
 
@@ -320,11 +321,21 @@ style="width:90%; height:auto;" />
 | Reward Function | Ensemble of vision experts (Human Preference Model, Object Detector, VQA Model, Output Reward Model) |
 | Core Insights   | The authors propose a novel reasoning-enhanced text-to-image model powered by reinforcement learning with a bi-level chain-of-thought (CoT) reasoning process. Semantic-level CoT focuses on high-level planning of the image generation, while token-level CoT handles low-level pixel processing during patch-by-patch generation. By optimizing both levels of CoT through an ensemble of reward models, the approach achieves significant performance improvements on complex prompts and uncommon scenarios. |
 
+**X-REASONER: A Simple Yet Effective Post-Training Recipe for Generalizable Reasoning**
+
 | Paper           | [X-REASONER: A Simple Yet Effective Post-Training Recipe for Generalizable Reasoning](http://arxiv.org/abs/2412.18925) |
 | :-------------- | :----------------------------------------------------------- |
 | Link            | [Code💻](https://github.com/microsoft/x-reasoner)             |
 | Reward Function | Verifiable rewards based on mathematical textual questions   |
 | Core Insights   | The authors introduce X-REASONER, a post-training recipe that enhances the reasoning capabilities of vision-language models using general-domain text-based supervision through combined SFT and RL strategies. X-REASONER demonstrates strong generalization across modalities and domains, achieving state-of-the-art performance on various benchmarks without multimodal training data. Additionally, the authors propose X-REASONER-MED, a medical-specialized variant that achieves new state-of-the-art results on medical tasks. |
+
+**Flow-GRPO: Training Flow Matching Models via Online RL**
+
+| Paper           | [Flow-GRPO: Training Flow Matching Models via Online RL](https://www.arxiv.org/abs/2505.05470) |
+| :-------------- | :----------------------------------------------------------- |
+| Link            | [Models🤗](https://huggingface.co/jieliu)   [Code💻](https://github.com/yifan123/flow_grpo) |
+| Reward Function | Rule-Based (Accuracy), Model-Based (Human Preference)        |
+| Core Insights   | The authors introduce Flow-GRPO, the first method integrating online reinforcement learning (RL) into flow matching models. Their approach uses two key strategies: an ODE-to-SDE conversion that transforms a deterministic Ordinary Differential Equation (ODE) into an equivalent Stochastic Differential Equation (SDE), enabling statistical sampling for RL exploration; and a Denoising Reduction strategy that reduces training denoising steps while retaining the original inference timestep number, significantly improving sampling efficiency without performance degradation. |
 
 </details>
 
