@@ -30,7 +30,9 @@ The integration of reinforcement learning (RL) into the reasoning capabilities o
 
 # News 📣
 
-+ **[2025-04-30] 🔥🔥 We have summarized the MLLM RL-Based Reasoning from January to March 2025 and released the first version of our survey on Reinforced MLLM on [arXiv](https://arxiv.org/abs/2504.21277).**
++ **[2025-04-30] 🔥🔥 We have summarized the MLLM RL-Based Reasoning from January to March 2025 and released the first version of our survey on Reinforced MLLMs on [arXiv](https://arxiv.org/abs/2504.21277).**
+
++ **[2025-05-21] 🔥🔥We have summarized the MLLM RL-based Reasoning from January to April 2025, and updated the second version of the survey on Reinforced MLLMs on [arXiv](https://arxiv.org/abs/2504.21277).**
 
 # Table of Contents 📋
 
